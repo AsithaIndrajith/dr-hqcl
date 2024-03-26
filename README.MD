@@ -42,9 +42,9 @@ Before running the code, make sure you have the following software and dependenc
    - If you don't have Conda installed, follow the installation instructions for your operating system [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 2. **Create a Conda Environment:**
-   - Create a new Conda environment using the provided `environment.yml` file:
+   - Create a new Conda environment:
      ```bash
-     conda env create -f environment.yml
+     conda env create -n <env_name> python=3.10
      ```
 
    - Activate the Conda environment:
